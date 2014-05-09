@@ -1,6 +1,6 @@
 WORK IN PROGRESS
 
-# BUSY QUEUE
+# TOOBUSY BUFFER
 
 Middleware для expressjs, которое предназначено для временного хранения запросов в случае, если CPU сервера загружено.
 (для определения этого факта используется модуль [toobusy](https://github.com/lloyd/node-toobusy)).
@@ -35,9 +35,9 @@ Middleware для expressjs, которое предназначено для в
 
 Имеет смысл добавить данную мидлвару одной из первых в цепочке, сразу после логирования запроса (и, возможно, других специфичных вещей).
 
-    var busyQueue = require('busy_queue');
-    busyQueue.startScheduler();
-    app.use(busyQueue.establish);
+    var toobusyBuffer = require('toobusy-buffer');
+    toobusyBuffer.startScheduler();
+    app.use(toobusyBuffer.establish);
 
 
 ## Тестирование
