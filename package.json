@@ -1,11 +1,12 @@
 {
-  "name": "busy_queue",
+  "name": "toobusy-buffer",
   "version": "0.0.1",
-  "homepage": "https://github.com/swvitaliy/node-busy_queue",
+  "homepage": "https://github.com/swvitaliy/node-toobusy-buffer",
   "description": "Middleware для expressjs, которое предназначено для временного хранения запросов в случае, если CPU сервера загружено",
   "keywords": [
     "express",
     "toobusy",
+    "buffer",
     "Circular buffer"
   ],
   "author": {
@@ -14,12 +15,12 @@
     "url": "https://github.com/swvitaliy"
   },
   "bugs": {
-    "url": "https://github.com/swvitaliy/node-busy_queue/issues",
+    "url": "https://github.com/swvitaliy/node-toobusy-buffer/issues",
     "email": "sw.vitaliy@gmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/swvitaliy/node-busy_queue.git"
+    "url": "git://github.com/swvitaliy/node-toobusy-buffer.git"
   },
   "dependencies": {
     "toobusy": "~0.2.4"
