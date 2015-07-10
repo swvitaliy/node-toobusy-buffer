@@ -46,3 +46,7 @@ Middleware для expressjs, которое предназначено для в
 
 Очень жаль, но пока нет :(
 
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/swvitaliy/node-toobusy-buffer/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
